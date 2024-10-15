@@ -12,7 +12,7 @@ Tested on Termux (Android) and Windows. (Python 3.12.1)
 pkg upgrade
 pkg install git -y 
 pkg install python -y 
-git clone 
+git clone https://github.com/Everkenedy12/vpkextractor.git
 cd vpkextractor
 pip3 install -r requirements.txt
 ```
