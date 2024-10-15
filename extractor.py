@@ -41,6 +41,4 @@ try:
     bar.finish()
 
     print("\033[H\033[J", end="")
-    print("Successfuly extracted vpk '%s', into: '%s'" % (basedir, curdir))
-except FileNotFoundError:
-    print("Error! VPK is not valid!")
+    print("Successfuly extracted vpk '%s', into: '%s'" % (basedir, curdir)
